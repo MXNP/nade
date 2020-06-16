@@ -142,12 +142,23 @@
 	}
 	
 	h2.map {
-	margin: 0;
-	padding: 1em 0 0 0;
+	margin: 1em 0 0 0;
+	padding: 0;
 	font-family: 'Akzidenz', sans-serif;
 	font-weight: 400;
 	font-size: 2.8em;
 	letter-spacing: 0px;
+	float: left;
+	}
+	
+	h3.team {
+	margin: 2em 0 0 0;
+	padding: 0;
+	font-family: 'Akzidenz', sans-serif;
+	font-weight: 400;
+	font-size: 1.4em;
+	letter-spacing: 0px;
+	float: left;
 	}
 
 /** containers **/
@@ -163,8 +174,51 @@ font-weight: 400;
 
 nav {
 border: 0px solid #e1e1e1;
-
 }
+
+	img.mapview {
+	margin: 2.8em 0 2.8em 0;
+	width: 400px;
+	height: 400px;
+	float: right;
+	border: 0px solid black;
+	}
+
+/** tables **/
+
+	table {
+	margin: 3.5em 0 0 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+	border: none;
+	}
+	
+	th {
+	width: ;
+	padding: 1em 0 2em 0;
+	font-family: 'Apercu Mono', monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8em;
+	line-height: 1;
+	text-align: left;
+	vertical-align: top;
+	text-decoration: underline;
+	border-bottom: 1px solid #ccc;
+	}
+	
+	td {
+	padding: 1em 0 2em 0;
+	font-family: 'Apercu Mono', monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8em;
+	line-height: 1;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	}
 
 /** formatting **/
 
